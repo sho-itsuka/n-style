@@ -1,0 +1,16 @@
+button {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+button :hover{
+  opacity: 0.8;
+}
+
+.col-1 {
+  background-color: red;
+}
+
+.row {
+  background-color: blue;
+}
