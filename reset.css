@@ -66,3 +66,7 @@ button {
 button img {
   display: block;
 }
+/* 11. Remove default li styles*/
+li {
+  list-style: none;
+}

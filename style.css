@@ -1,16 +1,45 @@
-button {
-  transition: all 0.3s;
+html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  transition: all 0.5s;
   cursor: pointer;
 }
 
-button :hover{
-  opacity: 0.8;
+.button :hover{
+  opacity: 0.6;
 }
 
-.col-1 {
-  background-color: red;
+header {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
-.row {
-  background-color: blue;
+header h1 {
+  color: #F570A7;
+  text-shadow: 0px 4px 4px #aaaaaa;
+}
+
+nav {
+  margin: 0 0 0 auto;
+}
+
+nav ul {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+nav li {
+  margin-left: auto;
+}
+
+.page-top {
+  transition: all 0.3s;
+}
+
+.page-top :hover{
+  opacity: 0.5;
 }
