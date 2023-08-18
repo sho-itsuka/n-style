@@ -43,3 +43,9 @@ nav li {
 .page-top :hover{
   opacity: 0.5;
 }
+
+.contact {
+  background-image: url(/images/contact-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
