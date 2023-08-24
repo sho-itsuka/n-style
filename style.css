@@ -44,9 +44,15 @@ nav li {
   opacity: 0.5;
 }
 
+.chosen-reason {
+  background: url(/images/chosen-reason-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .contact {
   background-image: url(/images/contact-bg.png);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -62,6 +68,54 @@ nav li {
 
   .header-button {
     margin-bottom: 160px;
+  }
+
+  .chosen-reason-title {
+    margin-top: 320px;
+  }
+
+  .chosen-reason-button {
+    margin: 80px 0 320px 0;
+  }
+
+  .cheap-plan-title {
+    margin: 160px 0 80px 0;
+  }
+
+  .price-list-title {
+    margin: 130px 0 80px 0;
+  }
+
+  .price-list-content {
+    margin-bottom: 60px;
+  }
+
+  .parts-list-title {
+    margin: 130px 0 80px 0;
+  }
+
+  .parts-list {
+    margin-bottom: 60px;
+  }
+
+  .flow-sheet-title {
+    margin: 100px 0 80px 0;
+  }
+
+  .flow-sheet {
+    margin-bottom: 160px;
+  }
+
+  .counseling-title {
+    margin-bottom: 80px;
+  }
+
+  .counseling {
+    margin-bottom: 160px;
+  }
+
+  .counseling-button {
+    margin-bottom: 80px;
   }
 }
 
@@ -80,6 +134,54 @@ nav li {
   .header-button {
     margin-bottom: 80px;
   }
+
+  .chosen-reason-title {
+    margin-top: 200px;
+  }
+
+  .chosen-reason-button {
+    margin: 40px 0 180px 0;
+  }
+
+  .cheap-plan-title {
+    margin: 80px 0 20px 0;
+  }
+
+  .price-list-title {
+    margin: 60px 0 10px 0;
+  }
+
+  .price-list-content {
+    margin-bottom: 30px;
+  }
+
+  .parts-list-title {
+    margin-top: 60px;
+  }
+
+  .parts-list {
+    margin-bottom: 30px;
+  }
+
+  .flow-sheet-title {
+    margin: 60px 0 10px 0;
+  }
+
+  .flow-sheet {
+    margin-bottom: 80px;
+  }
+
+  .counseling-title {
+    margin-bottom: 10px;
+  }
+
+  .counseling {
+    margin-bottom: 80px;
+  }
+
+  .counseling-button {
+    margin-bottom: 60px;
+  }
 }
 
 /* sp */
@@ -96,5 +198,53 @@ nav li {
 
   .header-button {
     margin-bottom: 24px;
+  }
+
+  .chosen-reason-title {
+    margin-top: 80px;
+  }
+
+  .chosen-reason-button {
+    margin: 24px 0 100px 0;
+  }
+
+  .cheap-plan-title {
+    margin-top: 24px;
+  }
+
+  .price-list-title {
+    margin-top: 24px;
+  }
+
+  .price-list-content {
+    margin-bottom: 10px;
+  }
+
+  .parts-list-title {
+    margin-top: 24px;
+  }
+
+  .parts-list {
+    margin: 10px 0;
+  }
+
+  .flow-sheet-title {
+    margin-top: 24px;
+  }
+
+  .flow-sheet {
+    margin: 10px 0;
+  }
+
+  .counseling-title {
+    margin-top: 10px;
+  }
+
+  .counseling {
+    margin-bottom: 30px;
+  }
+
+  .counseling-button {
+    margin-bottom: 20px;
   }
 }
