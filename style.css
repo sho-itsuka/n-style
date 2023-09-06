@@ -1,3 +1,4 @@
+/* index.html */
 html {
   scroll-behavior: smooth;
 }
@@ -364,5 +365,17 @@ details[open] summary {
 
   .page-top {
     margin-bottom: 20px;
+  }
+}
+
+/* booking.html */
+.title-under-content {
+  margin: 80px 0;
+}
+
+/* sp */
+@media(max-width:576px) {
+  .form-check-inline {
+    margin: 0 auto;
   }
 }

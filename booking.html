@@ -9,8 +9,136 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
-      <h1>予約</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img
+            src="images/booking-title.png"
+            class="img-fluid"
+            alt="ご予約フォーム">
+        </div>
+      </div>
+      <div class="title-under-content row">
+        <div class="col text-center">
+          <p>以下の内容を入力してください。<br>
+            （* マークは必須項目になります）</p>
+        </div>
+      </div>
+      <form class="needs-validation">
+        <div class="row">
+          <div class="col-9 mx-auto">
+            <p class="border-bottom border-dark pb-3">お名前<span style="color: #F31C1C;" >*</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto">
+            <input type="text" class="form-control" placeholder="例）脱毛　花子">
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-9 mx-auto">
+            <p class="border-bottom border-dark pb-3">お名前（ふりがな）<span style="color: #F31C1C;" >*</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto">
+            <input type="text" class="form-control" placeholder="例）だつもう　はなこ">
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-9 mx-auto">
+            <p class="border-bottom border-dark pb-3">ご年齢<span style="color: #F31C1C;" >*</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto">
+            <input type="text" class="form-control" placeholder="例）25">
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-9 mx-auto">
+            <p class="border-bottom border-dark pb-3">メールアドレス<span style="color: #F31C1C;" >*</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto">
+            <input type="email" class="form-control" placeholder="例）datsumou@xxx.jp" aria-describedby="emailHelp">
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-9 mx-auto">
+            <input type="email" class="form-control" placeholder="例）datsumou@xxx.jp" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">確認のため、メールアドレスを再度入力してください。</div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-9 mx-auto">
+            <p class="border-bottom border-dark pb-3">電話番号<span style="color: #F31C1C;" >*</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto">
+            <input type="tel" class="form-control" placeholder="例）090-0000-0000">
+            <div class="form-text">※ 携帯可</div>
+            <div class="form-text">※ 半角英数でご入力ください。</div>
+            <div class="form-text">※ ご予約いただいた内容次第で、お電話をさせていただく場合がございます。<br>お電話を差し上げる際には、カウンセラーの個人名にてご連絡をいたします。</div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-9 mx-auto">
+            <p class="border-bottom border-dark pb-3">コースプラン<span style="color: #F31C1C;" >*</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 form-check mx-auto">
+            <input type="checkbox" class="form-check-input" value="" id="formCheckDefault1">
+            <label for="formCheckDefault1" class="form-check-label">
+              コースプラン
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 form-check mx-auto">
+            <input type="checkbox" class="form-check-input" value="" id="formCheckDefault2">
+            <label for="formCheckDefault2" class="form-check-label">
+              部位別プラン
+            </label>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-9 mx-auto">
+            <p class="border-bottom border-dark pb-3">ご希望クリニック<span style="color: #F31C1C;" >*</span></p>
+          </div>
+        </div>
+        <div class="row justify-content-md-evenly justify-content-sm-center">
+          <div class="col-lg-2 col-sm-3 form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label for="inlineRadio1" class="form-check-label">新宿クリニック</label>
+          </div>
+          <div class="col-lg-2 col-sm-3 form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label for="inlineRadio2" class="form-check-label">渋谷クリニック</label>
+          </div>
+          <div class="col-lg-2 col-sm-3 form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label for="inlineRadio3" class="form-check-label">池袋クリニック</label>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-md-evenly justify-content-sm-center">
+          <div class="col-lg-2 col-sm-3 form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+            <label for="inlineRadio4" class="form-check-label">上野クリニック</label>
+          </div>
+          <div class="col-lg-2 col-sm-3 form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+            <label for="inlineRadio5" class="form-check-label">錦糸町クリニック</label>
+          </div>
+          <div class="col-lg-2 col-sm-3 form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+            <label for="inlineRadio6" class="form-check-label">川崎クリニック</label>
+          </div>
+        </div>
+      </form>
     </div>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
