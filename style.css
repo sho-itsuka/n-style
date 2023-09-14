@@ -378,4 +378,12 @@ details[open] summary {
   .form-check-inline {
     margin: 0 auto;
   }
+
+  #header-title {
+    text-align: center;
+  }
+
+  .header-button-2 {
+    display: none;
+  }
 }
